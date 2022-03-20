@@ -1,0 +1,24 @@
+.video {
+  .right-side {
+    .video-thumbnail {
+      margin-top: 3px;
+      border-radius: 3px;
+    }
+  }
+  .left-side {
+    margin-left: 15px;
+
+    .title {
+      margin-bottom: 2px;
+    }
+    .channel-info,
+    .description {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text-color);
+    }
+    .description {
+      margin-top: 15px;
+    }
+  }
+}
