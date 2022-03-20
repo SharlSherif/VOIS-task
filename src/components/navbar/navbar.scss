@@ -26,7 +26,6 @@ nav {
       .search {
         display: flex;
         max-width: 400px;
-
         input {
           width: 100%;
           padding: 5px;
@@ -36,7 +35,7 @@ nav {
 
         .search-icon-container {
           height: 100%;
-          button {
+          .search-btn {
             padding: 0;
             width: 50px;
             background-color: #88888817;
@@ -44,8 +43,9 @@ nav {
             height: 100%;
             border: 0.5px solid #80808030;
             border-radius: 0px 2px 2px 0px;
+            cursor: pointer;
           }
-          button svg {
+          .search-btn svg {
             padding: 0;
             margin: auto;
             display: block;
@@ -56,10 +56,6 @@ nav {
 
     .left-side {
       width: 20%;
-
-      svg {
-        width: 100px;
-      }
     }
   }
 }
