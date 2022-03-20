@@ -58,7 +58,12 @@ input {
 
 
 // media queries
-
+@media (min-width: 320px) {
+  .container-sm,
+  .container {
+    max-width: 300px;
+  }
+}
 @media (min-width: 576px) {
   .container-sm,
   .container {
